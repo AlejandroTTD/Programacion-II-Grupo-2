@@ -6,15 +6,15 @@
 
 * Para la personalización del Git Bash y del visual code, se puede personalizar su terminal para que esta sea la determinada en Visual Code y salga por defecto automaticamente, cada vez que se le llame con el comando CTRL + Ñ o manualmente.
 
-![Captura de la terminal](<Imagen de WhatsApp 2024-05-04 a las 22.24.20_293b1d47.jpg>)
+![Captura de la terminal](<img2.png>)
 
 Ademas se puede personalizar el git bash en si con la ayuda de otras aplicaciones externas, como por ejemplo: *Oh my posh* que es una de varias que pueden ayudar a darle un toque mas personal a la terminal y la consola de Git bash, con varios diseños y fuentes de se pueden instalar facilmente.
 
-![Captura de los diseños](<Imagen de WhatsApp 2024-05-04 a las 16.14.00_c8f0a1a2.jpg>)
+![Captura de los diseños](<img3.png>)
 
 Esos son algunos de los diseños que se pueden conseguir en Oh *my posh*, de la misma forma la aplicacion permite crear un diseño nuevo, al final de la personalizacion se puede obtener un resultado asi en la terminal.
 
-![Captura de la terminal personalizada](<Imagen de WhatsApp 2024-05-04 a las 22.23.52_f71640f1.jpg>)
+![Captura de la terminal personalizada](<img4.png>)
 
 * De la misma forma se puede personalizar, el color de visual estudio con ayuda de los temas que vienen en la aplicación, pero tambien se pueden instalar otros, así mismo con los iconos de las aplicaciones o archivos que se abran dentro del visual.
 
