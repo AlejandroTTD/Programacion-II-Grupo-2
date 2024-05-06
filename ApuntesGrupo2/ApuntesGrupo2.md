@@ -238,3 +238,51 @@ Usando
   - Guiones: ------
   - Asteriscos: *****
   - Guiones bajos: _____
+
+
+## Manejo GIT Bash
+- $ git config user.name
+- $ git config user.email
+- $ git config --global user.name
+## Restrear archivos
+- $ git init
+## Seguimiento (Ver el estado).
+- $ git status
+## Añadir todos los archivos
+- $ git add .
+## Añadir uno a uno
+- $ git add XXXXX
+## Commit enviar archivos al git
+- $ git commit -m "Iniciando-------"
+## Entrar en el documento cambiado
+code Hola.java
+## Rama - Branch
+- Git inyecta los cambios a la master
+## Respaldar - Nube GitHub
+- Cambiar nombre y crear
+- $ git checkout -b main 
+- $ git branch -m main
+- Ver las ramas --- Extension git lens
+- $ git branch
+- Subir a la nube.
+
+Boton de conexiones y seleccionar público o privado.
+
+### Merge
+- Unir lo contenido en las ramas
+
+### Cambios de la nube
+- $ git pull
+- Traer los cambios de la nube
+## Git clone
+- Ver slides
+## Git ignore
+- $ touch .gitignore
+- se añade lo que no se quiere
+
+**No hace caso a los commits ni push.**
+
+## Extra
+- $ git help
+- Forzar -->- $ git push --force
+- Revert --> - $ git reset --hard
