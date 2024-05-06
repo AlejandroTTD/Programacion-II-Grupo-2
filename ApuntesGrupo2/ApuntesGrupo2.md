@@ -1,8 +1,69 @@
-```Date: Martes 30 de abril```
+# <div align="center">**Escuela Politécnica Nacional**</div>
+### <div align = "center">**Facultad de Ingeniería en Sistemas**</div>
+### <div align = "center">**Ingeniería en Ciencias de la Computación**</div>
+### <div align = "center">**Programación II**</div>
+<br>
+<br>
+<p align = "center"><img src="logoEPN.png"alt="Logo EPN" width"350"/>
+</p>
+</br>
+</br>
 
-# Segunda Clase
+## **Semana 1**
+### ***Clase 1: Martes, 30 de abril de 2024***
+El primer encuentro entre estudiantes, presentación habitual y pautas de las clases mostradas a continuación:
+##### *Datos generales*
+- ***Dias de clase:*** Lunes/Martes/Miércoles
+- ***Horario de clase:*** De 11h00 a 13h00
+- <span style="background:#1FF000"> ***Puntualidad:*** Se permite llegar hasta 10 minutos tarde.</span>
+- ***Profesor:*** Patricio Paccha (pat-mic)
+##### *Indicaciones (Pruebas-Examenes-Proyecto)*
+- Las pruebas durarán de 2 a 4 horas
+- Los examenes durarán 8 horas
+- El proyecto deberá tener una parte física, es decir, un aparato externo
+- El proyecto deberá presentarse una parte al final del primer bimestre, y lo restante al final del semestre
+- El markdown de cada estudiante deberá ser presentado al final de cada bimestre
+##### *Recursos de trabajo grupal*
+- Marcadores de pizarra
+- Hojas de papel bond
+- Pc's o celulares
+- Pósits
+- Taza de café (Opcional)
+- Actidud: No trompud@, no brav@, no chuki
+##### *Normativas*
+- No llegar tarde a clases
+- No hablar en el celular en clase, mantener en modo silencio
+- Evitar comer alimentos en clase
+- No distraerse en la computadora en actividades ajenas a la clase
+- No entregar tareas, deberes, laboratorios, ni proyectos atrasados
+- Subir las tareas a la plataforma virtual (o por correo)
+- Pruebas teoricas en plataforma vitual (o escritas)
+- Se tomará en cuenta la participación de eventos académicos que organice la Facultad de Sistemas
+##### *Sistema de evaluaciones*
+<center>
 
-## *Personalización* *del* *Visual* *Code* *y* *de* *Git* *bash*
+| Evaluación | Puntaje | Temporalidad |
+|---|---|---|
+| Prueba | 25% | Mensual |
+|Examen|25%|Bimestral|
+|Workshop|10%|Mensual|
+|Homework|10%|Mensual|
+|Proyecto|30%|Bimestral|
+
+<br></br>
+||||
+|---|---|---|
+|Actuacion|+0.1|Siempre|
+|Retor|+1.0|Siempre|
+</center>
+
+##### *Taller MA01*
+El taller consistió en realizar una torre de malvaviscos y fideos, los malvaviscos como uniones y los fideos como columnas/vigas, todo esto con la menor cantidad de recursos posibles e intentando obtener la mayor altura posible.
+
+-------------------------------------------------------------------------
+### ***Segunda Clase: Miércoles, 1 de mayo de 2024***
+
+##### *Personalización* *del* *Visual* *Code* *y* *de* *Git* *bash*
 
 * Para la personalización del Git Bash y del visual code, se puede personalizar su terminal para que esta sea la determinada en Visual Code y salga por defecto automaticamente, cada vez que se le llame con el comando CTRL + Ñ o manualmente.
 
@@ -22,7 +83,7 @@ Esos son algunos de los diseños que se pueden conseguir en Oh *my posh*, de la 
 
 Con todo eso listo, se puede tener una buena herramienta, que sea comoda y al gusto del usuario para trabajar adecuadamente.
 
-## *Comandos Linux*
+##### *Comandos Linux*
 1. pwd : lugar actual
 
 2. touch readme.md : crear archivos  
@@ -71,9 +132,8 @@ Con todo eso listo, se puede tener una buena herramienta, que sea comoda y al gu
 
 24. echo : imprime un mensaje como salida estandar 
 
--------------------------------------------------------------------------
 
-## *Comandos VSCode* 
+##### *Comandos VSCode* 
 
 1. Ctrl + Shif + P : abre paleta de comandos 
 
@@ -115,48 +175,36 @@ Bloque de codigo de comentario
 13. Ctrl + F | Ctrl + H  : abre buscador | sustituir texto 
 
 14. Ctrl + G : Desplazarnos a la linea que nos interesa
--------------------------------------------------------------------------
-```Date: Miercoles 1 de mayo```
 
-# Tercera Clase
-## *Markdown* 
+#### *Uso de Markdown* 
 
-* Encabezados: 
-# Titulo 1
-## Titulo 2
-### Titulo 3 
-....
--------------------------------------------------------------------------
-* Tipo de letra:
-   - **palabras en negrita**
-   - *palabras en cursiva*
-   - ***palabras en negrita y cursiva***
-   - ==texto resaltado==
-   - ~~texto tachado~~
--------------------------------------------------------------------------
-* Listas: 
-  ##### Lista no ordenada:                    
+* **Tipo de letra:**
+   - **palabras en negrita** : Con ** palabra-frase **
+   - *palabras en cursiva* :  Con * palabra-frase * 
+   - ***palabras en negrita y cursiva***: Con *** palabra-frase ***
+   - ==texto resaltado== : Con == palabra-frase ==
+   - ~~texto tachado~~: Con ~~ palabra-frase ~~
+
+* **Listas:** 
+  ###### Lista no ordenada: Añadiendo - por cada item                  
   - Elemento 1
   - Elemento 2
   - Elemento 3 
-   ##### Lista ordenada:
+  ###### Lista ordenada: Añadiendo 1.y 2. sucesivamente por cada item
    1. Primer elemento 
    2. Segundo elemento 
    3. Tercer elemento
   
----------------------------------------------------------------
-* Enlaces: 
+* **Enlaces:** 
 
- - [buscador google](http://google.com)
+ - [buscador google](http://google.com): Usando [nombre cualquiera] (link), sin espacio
 
- - ![captura de codigo](img1.png)
-
----------------------------------------------------------------
-* Etiqueta: 
+ - ![captura de codigo](img1.png): Usando ![nombre cualquiera](nombre de la imagen)
+* **Etiqueta:** 
  
-![mensaje](https://img.shields.io/badge/Codigo-4CAC9D) <br>
+![mensaje](https://img.shields.io/badge/Codigo-4CAC9D) <br> Con ![nombre cualquiera](link de la etiqueta)
 
- #### Codigo Java
+ ##### *Codigo Java*
 
  ```java
 public class Hola {
@@ -168,20 +216,25 @@ public class Hola {
   }
 }
 ```
--------------------------------------------------------------------------
-* Tabla 
+Iniciando con ´´´NombreLenguajeDeProgramación y terminando con ´´´
+##### *Tabla* 
 
 |Columna 1|Columna 2|
 |--------|--------|
 |    A    |    B    |
 |    C    |    D    |
--------------------------------------------------------------------------
-* Bloques de codigo: 
+
+Usando 
+|Nombre de columna 1|Nombre de columna n|
+/|---|---|   Sin /
+|fila 1 columna 1| fila 1 columna n|
+|fila n columna 1| fila n columna n| 
+##### *Bloques de codigo:* 
   - comillas invertidas ---> ´codigo en linea´
   - citas ---> crear citas utilizando el signo ">"
--------------------------------------------------------------------------
+
 * Lineas horizontales: 
+---------
   - Guiones: ------
   - Asteriscos: *****
   - Guiones bajos: _____
--------------------------------------------------------------------------
