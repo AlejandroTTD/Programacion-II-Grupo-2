@@ -45,24 +45,28 @@
 ## **Clase 2**
 
 *Personalización* *del* *Visual* *Code* *y* *de* *Git* *bash*
-
+i
 * Para la personalización del Git Bash y del visual code, se puede personalizar su terminal para que esta sea la determinada en Visual Code y salga por defecto automaticamente, cada vez que se le llame con el comando CTRL + Ñ o manualmente.
 
-![Captura de la terminal](<Imagen de WhatsApp 2024-05-04 a las 22.24.19_3b2c7ac5.jpg>)
+![Captura de la terminal](image4.jpg)
 
 Ademas se puede personalizar el git bash en si con la ayuda de otras aplicaciones externas, como por ejemplo: *Oh my posh* que es una de varias que pueden ayudar a darle un toque mas personal a la terminal y la consola de Git bash, con varios diseños y fuentes de se pueden instalar facilmente.
 
-![Captura de los diseños](<Imagen de WhatsApp 2024-05-04 a las 16.13.59_3c1bb01b.jpg>)
+![Captura de los diseños](image1.jpg)
 
 Esos son algunos de los diseños que se pueden conseguir en Oh my posh, de la misma forma la aplicacion permite crear un diseño nuevo, al final de la personalizacion se puede obtener un resultado asi en la terminal.
 
-![Captura de la terminal terminada](<Imagen de WhatsApp 2024-05-04 a las 22.23.51_73342430.jpg>)
+![Captura de la terminal terminada](image2.jpg)
 
 * De la misma forma se puede personalizar, el color de visual estudio con ayuda de los temas que vienen en la aplicación, pero tambien se pueden instalar otros, así mismo con los iconos de las aplicaciones o archivos que se abran dentro del visual.
 
 * Tambien es recomendable cambiar la letra del visual code y de git bash para que sea mas comoda al momento de trabajar, pero eligiendo una que sea entendible y que facilite el trabajo.
 
 Con todo eso listo, se puede tener una buena herramienta, que sea comoda y al gusto del usuario para trabajar adecuadamente.
+
+*Captura de la visual terminado*
+
+![Captura del vs code](CelesteGallardo-CapturaVsCode.png)
 
 *Comandos* :)
 
@@ -87,7 +91,7 @@ Con todo eso listo, se puede tener una buena herramienta, que sea comoda y al gu
 
 ## **Clase 3**
 
-*Uso* *del *Markdonw*
+*Uso* *del* *Markdonw*
 
 Markdown es una herramienta para tomar apuntes sin necesidad de una herramienta fuera del area de trabajo, visula code, este se puede descargar como un archivo en formato PDF para compartir.
 Para eso se necesitan algunas extensiones.
@@ -114,7 +118,7 @@ Para eso se necesitan algunas extensiones.
 
 * Imagen: ![Nombre de la imagen](Direccion o link de la imagen)
 
-![alt text](<Imagen de WhatsApp 2024-05-04 a las 22.23.51_a78d8a4d.jpg>)
+![alt text](image3.jpg)
 
 * Codigo: ``` Nombre del lenguaje de programacion
 
