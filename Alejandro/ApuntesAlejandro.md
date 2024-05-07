@@ -283,3 +283,67 @@ ED25519 key fingerprint is SHA256: Clave.
 Are you sure you want to continue connecting (yes/no)?
 ```
 Escribir yes y observar que la clave funciona exitosamente.
+
+### ***Clase 3: Lunes, 6 de mayo de 2024***
+
+#### *Programación orientada a objetos*
+El primer lenguaje de programación para orientación a objetos nació en 1960, se llamó *Simula*.
+#### *Historia de Java*
+#### *Sintaxis de Java*
+- ```package``` Son todos los achivos que petenecen a un paquete, se coloca al inicio del archivo, es opcional
+- ```import``` Importa los paquetes para el proyecto, es opcional, va después del package
+- ```public``` **```class```** ```Person```: Java usa clases para ejecutar el codigo
+- ```public static void main (String args[]){Código}```: Es la función principal de Java.
+- 
+#### Programación estructurada Vs Programación orientada a objetos
+- ***UML***: Lenguaje de modelado unificado, fue presentado para diseñar con graficos el sistema.
+
+|P.E|P.O.O|
+|--------|--------|
+|Struct|Clase|
+|Variable|Variables/Propiedades-Atributo<br>Las variables pertenecen a los metodos, si no son propiedades|
+
+***Ejemplo de codigo en UML P.O.O.***
+```
+public class Animal{
+  public int id;
+  private string nombre;
+  protected char algo;
+  friendly boolean algo;
+
+  public static void main(){
+    Animal a = new Animal; ///Declara una variable perteneciente a la clase Animal
+  }
+}
+```
+- Una diferencia de P.O.O. con P.E. es que se añade el ambito, que va antes de declarar el tipo de dato, en este caso se tienen las mas comunes public, private, protected y friendly. Van debajo de la clase usualmente, pueden ir debajo también. Si no se coloca el ámbito, en el caso de Java los declara automáticamente como private.
+
+***Ejemplo de codigo en UML P.E***
+```
+#include <iostream>
+#include <string>
+struct Animal{
+  string/char/etc Algo;
+} type of animal;
+
+void main(){
+  animal *A = new Animal; ///Declara que se apunta al struct
+  A->Algo = "algo"; ///Indica que se usará la memoria del puntero, no su direccion
+  ...
+}
+```
+***Cuadro de UML general***
+|Nombre de la Clase|Animal|
+|--|--|
+|Propiedades|+id: int<br>+nombre: string|
+|Metodo||
+|Eventos(Opcional)|+main(): void|
+
+- El simbolo + se usa en lugar de colocar el ambito public.
+- El simbolo - se usa en lugar de colocar el ambito private. 
+- El simbolo # se usa en lugar de cologar el ambito protected.
+
+###### POO: Metodo sin retorno
+- Metodo que no devuelve ningun valor o cosa, es decir, un procedimiento.
+###### POO: Metodo con retorno
+- Metodo que retorna algun valor o cosa, es decir, es una funcion.
