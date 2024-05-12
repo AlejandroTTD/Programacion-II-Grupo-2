@@ -1,14 +1,13 @@
-// ForNombreApellidoAF.java
 public class ForNombreApellidoAF {
-    public void inicialFA(int size, char symbol) {
+    public void inicialFA(int tamaño, char simbolo) {
         System.out.println();
-        System.out.println("Iniciales A y F con FOR");
-        for (int row = 1; row <= size; row++) {
-            for (int col = 1; col <= size * 2; col++) { // Aumentamos el ancho para ambas iniciales
-                if (col <= size && (row == 1 || row == size / 2 + 1)) {
-                    System.out.print(" " + symbol + " ");
-                } else if (col > size && (row == 1 || row == size)) {
-                    System.out.print(" " + symbol + " ");
+        System.out.println("Iniciales A ; F con FOR");
+        for (int fila = 1; fila <= tamaño; fila++) {
+            for (int col = 1; col <= tamaño * 2; col++) {
+                if (col <= tamaño && (fila == 1 || fila == tamaño / 2 + 1)) {
+                    System.out.print(" " + simbolo + " ");
+                } else if (col > tamaño && (fila == 1 || fila == tamaño)) {
+                    System.out.print(" " + simbolo + " ");
                 } else {
                     System.out.print("   ");
                 }

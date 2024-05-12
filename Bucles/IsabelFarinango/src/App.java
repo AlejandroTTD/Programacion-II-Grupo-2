@@ -21,8 +21,8 @@ public class App {
 
         // FOR
         inicialA.inicialA(5, '*');
-        inicialF.inicialF(5, '*');
-        inicialFA.inicialFA(6, '*');
+        inicialF.inicialF(6, '*');
+        inicialFA.inicialFA(5, '*');
 
         // WHILE
         inicialAWhile.inicialA(5, '*');
