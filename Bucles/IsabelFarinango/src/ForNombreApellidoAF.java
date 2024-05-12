@@ -7,7 +7,11 @@ public class ForNombreApellidoAF {
                 if (col <= tamaño) {
                     System.out.print(" " + simbolo + " ");
                 } else if (fila == 1 || fila == tamaño / 2 + 1) {
-                    System.out.print(" " + simbolo + " ");
+                    if (col == tamaño + 1) {
+                        System.out.print("    " + simbolo + "    ");
+                    } else {
+                        System.out.print("  " + simbolo + "  ");
+                    }
                 } else {
                     System.out.print("   ");
                 }
