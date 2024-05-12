@@ -4,9 +4,9 @@ public class ForNombreApellidoAF {
         System.out.println("Iniciales A ; F con FOR");
         for (int fila = 1; fila <= tamaño; fila++) {
             for (int col = 1; col <= tamaño * 2; col++) {
-                if (col <= tamaño && (fila == 1 || fila == tamaño / 2 + 1)) {
+                if (col <= tamaño) {
                     System.out.print(" " + simbolo + " ");
-                } else if (col > tamaño && (fila == 1 || fila == tamaño)) {
+                } else if (fila == 1 || fila == tamaño / 2 + 1) {
                     System.out.print(" " + simbolo + " ");
                 } else {
                     System.out.print("   ");

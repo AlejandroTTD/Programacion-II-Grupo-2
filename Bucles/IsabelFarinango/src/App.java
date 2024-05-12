@@ -21,12 +21,12 @@ public class App {
 
         // FOR
         inicialA.inicialA(5, '*');
-        inicialF.inicialF(6, '*');
+        inicialF.inicialF(5, '*');
         inicialFA.inicialFA(5, '*');
 
         // WHILE
         inicialAWhile.inicialA(5, '*');
-        inicialFWhile.inicialF(6, '*');
+        inicialFWhile.inicialF(5, '*');
         inicialFAWhile.inicialFA(5, '*');
 
         // DO-WHILE
