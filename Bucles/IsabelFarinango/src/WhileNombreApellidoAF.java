@@ -1,5 +1,5 @@
 public class WhileNombreApellidoAF {
-    public void whileNombreApellidoAF(int nivelEsperado, char signo) {
+    public void whileNombreApellido(int nivelEsperado, char signo) {
         System.out.println("\nIniciales A ; F con un while");
 
         int fil = 1;

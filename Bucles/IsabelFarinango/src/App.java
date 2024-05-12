@@ -2,6 +2,7 @@ public class App {
     public static void main(String[] args) {
 
         // Declarar / Instanciar :
+
         // FOR
         ForNombreA inicialNombreFor = new ForNombreA();
         ForApellidoF inicialApellidoFor = new ForApellidoF();
@@ -24,9 +25,9 @@ public class App {
         inicialNombreApellidoFor.forNombreApellido(5, "*");
 
         // WHILE
-        inicialNombreWhile.whileInicalNombre(5, '*');
+        inicialNombreWhile.whileInicialNombre(5, '*');
         inicialApellidoWhile.whileApellido(5, '*');
-        inicialNombreApellidoWhile.whileNombreApellidoLA(5, '*');
+        inicialNombreApellidoWhile.whileNombreApellido(5, '*');
 
         // DOWHILE
         inicialNombreDoWhile.doWhileNombre(5, '*');
