@@ -1,7 +1,7 @@
-public class DoWhileNombreA {
-    public void inicialA(int tamaño, char simbolo) {
+public class DoWhileNombreApellidoAF {
+    public void inicialFA(int tamaño, char simbolo) {
         System.out.println();
-        System.out.println("Inicial A con DO-WHILE");
+        System.out.println("Iniciales A ; F con DO-WHILE");
         int fila = 1;
         do {
             int col = 1;
