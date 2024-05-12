@@ -13,9 +13,9 @@ public class App {
         WhileNombreApellidoAF inicialFAWhile = new WhileNombreApellidoAF();
 
         // DO-WHILE
-        DoWhileNombreA inicialADoWhile = new DoWhileNombreA();
-        DoWhileApellidoF inicialFDoWhile = new DoWhileApellidoF();
-        DoWhileNombreApellidoAF inicialFADoWhile = new DoWhileNombreApellidoAF();
+        // DoWhileNombreA inicialADoWhile = new DoWhileNombreA();
+        // DoWhileApellidoF inicialFDoWhile = new DoWhileApellidoF();
+        // DoWhileNombreApellidoAF inicialFADoWhile = new DoWhileNombreApellidoAF();
 
         // LLAMAR METODO
 
@@ -26,12 +26,12 @@ public class App {
 
         // WHILE
         inicialAWhile.inicialA(5, '*');
-        inicialFWhile.inicialF(5, '*');
+        inicialFWhile.inicialF(6, '*');
         inicialFAWhile.inicialFA(5, '*');
 
         // DO-WHILE
-        inicialADoWhile.inicialA(5, '*');
-        inicialFDoWhile.inicialF(5, '*');
-        inicialFADoWhile.inicialFA(5, '*');
+        // inicialADoWhile.inicialA(5, '*');
+        // inicialFDoWhile.inicialF(5, '*');
+        // inicialFADoWhile.inicialFA(5, '*');
     }
 }

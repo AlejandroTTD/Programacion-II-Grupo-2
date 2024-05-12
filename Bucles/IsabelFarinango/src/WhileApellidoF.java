@@ -9,7 +9,7 @@ public class WhileApellidoF {
                 if (col == 1 || (tamaño == 1 || fila == tamaño / 2 + 1) && col <= tamaño) {
                     System.out.print(simbolo + " ");
                 } else {
-                    System.out.print("  ");
+                    System.out.print("   ");
                 }
                 col++;
             }
