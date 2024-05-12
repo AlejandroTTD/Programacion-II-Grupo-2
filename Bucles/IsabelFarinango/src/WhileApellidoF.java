@@ -2,7 +2,7 @@ public class WhileApellidoF {
 
     public void whileApellido(int tamañoInicial, char signo) {
         System.out.println();
-        System.out.println("Inicial F con un While");
+        System.out.println("Inicial F con WHILE");
         int fil = 1;
         while (fil <= tamañoInicial) {
             int col = 1;
