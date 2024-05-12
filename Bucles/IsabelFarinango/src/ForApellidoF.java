@@ -1,13 +1,17 @@
 public class ForApellidoF {
-    public void inicialApellido(int alturaInicial, char signo) {
+    public void inicialF(int tamaño, char simbolo) {
         System.out.println();
-        System.out.println("Inicial F con FOR");
-        for (int nivel = 1; nivel <= alturaInicial; nivel++) {
-            if (nivel == 1 || nivel == alturaInicial / 2 + 1) {
-                System.out.println(" " + signo + " " + signo);
-            } else {
-                System.out.println(" " + signo);
+        System.out.println("Inicial F con un for");
+        for (int fila = 1; fila <= tamaño; fila++) {
+            for (int col = 1; col <= tamaño; col++) {
+                if (col == 1 || (fila == 1 || fila == tamaño / 2 + 1) && col <= tamaño) {
+                    System.out.print(simbolo + " ");
+                } else {
+                    System.out.print("  ");
+                }
             }
+            System.out.println();
         }
+        System.out.println();
     }
 }

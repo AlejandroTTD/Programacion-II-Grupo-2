@@ -1,18 +1,15 @@
 public class App {
     public static void main(String[] args) {
+        // Declaramos e instanciamos las variables en el orden de tipo for, while y do
+        // while.
+        ForNombreA inicialA = new ForNombreA();
+        ForApellidoF inicialF = new ForApellidoF();
+        ForNombreApellidoAF inicialFA = new ForNombreApellidoAF();
 
-        // Declarar / Instanciar :
-
-        // FOR
-        ForNombreA inicialNombreFor = new ForNombreA();
-        ForApellidoF inicialApellidoFor = new ForApellidoF();
-        ForNombreApellidoAF inicialNombreApellidoFor = new ForNombreApellidoAF();
-
-        // Llamar al método :
-        // FOR
-        inicialNombreFor.inicialNombre(5, '*'); // Debería imprimir la letra A con asteriscos
-        inicialApellidoFor.inicialApellido(5, '*'); // Debería imprimir la letra F con asteriscos
-        inicialNombreApellidoFor.forNombreApellido(5, "*"); // Debería imprimir ambas letras
-
+        // Invocamos cada método creado en las respectivas clases en el orden for, while
+        // y do-while.
+        inicialA.inicialA(5, '*');
+        inicialF.inicialF(5, '*');
+        inicialFA.inicialFA(6, '*');
     }
 }
