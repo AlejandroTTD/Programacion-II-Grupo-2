@@ -4,18 +4,18 @@ public class App {
         // Declarar / Instanciar :
         // FOR
         ForNombreA inicialNombreFor = new ForNombreA();
-        ForApellidoA inicialApellidoFor = new ForApellidoA();
-        ForNombreApellidoLA inicialNombreApellidoFor = new ForNombreApellidoLA();
+        ForApellidoF inicialApellidoFor = new ForApellidoF();
+        ForNombreApellidoAF inicialNombreApellidoFor = new ForNombreApellidoAF();
 
         // WHILE
-        WhileNombreL inicialNombreWhile = new WhileNombreL();
-        WhileApellidoA inicialApellidoWhile = new WhileApellidoA();
-        WhileNombreApellidoLA inicialNombreApellidoWhile = new WhileNombreApellidoLA();
+        WhileNombreA inicialNombreWhile = new WhileNombreA();
+        WhileApellidoF inicialApellidoWhile = new WhileApellidoF();
+        WhileNombreApellidoAF inicialNombreApellidoWhile = new WhileNombreApellidoAF();
 
         // DOWHILE
-        DoWhileNombreL inicialNombreDoWhile = new DoWhileNombreL();
-        DoWhileApellidoA inicialApellidoDoWhile = new DoWhileApellidoA();
-        DoWhileNombreApellidoLA inicialNombreApellidoDoWhile = new DoWhileNombreApellidoLA();
+        DoWhileNombreA inicialNombreDoWhile = new DoWhileNombreA();
+        DoWhileApellidoF inicialApellidoDoWhile = new DoWhileApellidoF();
+        DoWhileNombreApellidoAF inicialNombreApellidoDoWhile = new DoWhileNombreApellidoAF();
 
         // Llamar al mEtodo :
         // FOR
