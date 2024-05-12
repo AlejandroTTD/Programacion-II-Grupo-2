@@ -8,31 +8,11 @@ public class App {
         ForApellidoF inicialApellidoFor = new ForApellidoF();
         ForNombreApellidoAF inicialNombreApellidoFor = new ForNombreApellidoAF();
 
-        // WHILE
-        WhileNombreA inicialNombreWhile = new WhileNombreA();
-        WhileApellidoF inicialApellidoWhile = new WhileApellidoF();
-        WhileNombreApellidoAF inicialNombreApellidoWhile = new WhileNombreApellidoAF();
-
-        // DOWHILE
-        DoWhileNombreA inicialNombreDoWhile = new DoWhileNombreA();
-        DoWhileApellidoF inicialApellidoDoWhile = new DoWhileApellidoF();
-        DoWhileNombreApellidoAF inicialNombreApellidoDoWhile = new DoWhileNombreApellidoAF();
-
-        // Llamar al mEtodo :
+        // Llamar al método :
         // FOR
-        inicialNombreFor.inicialNombre(5, '*');
-        inicialApellidoFor.inicialApellido(5, '*');
-        inicialNombreApellidoFor.forNombreApellido(5, "*");
-
-        // WHILE
-        inicialNombreWhile.whileInicialNombre(5, '*');
-        inicialApellidoWhile.whileApellido(5, '*');
-        inicialNombreApellidoWhile.whileNombreApellido(5, '*');
-
-        // DOWHILE
-        inicialNombreDoWhile.doWhileNombre(5, '*');
-        inicialApellidoDoWhile.doWhileApellido(5, '*');
-        inicialNombreApellidoDoWhile.doWhileNombreApellido(5, '*');
+        inicialNombreFor.inicialNombre(5, '*'); // Debería imprimir la letra A con asteriscos
+        inicialApellidoFor.inicialApellido(5, '*'); // Debería imprimir la letra F con asteriscos
+        inicialNombreApellidoFor.forNombreApellido(5, "*"); // Debería imprimir ambas letras
 
     }
 }
