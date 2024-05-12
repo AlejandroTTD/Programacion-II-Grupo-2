@@ -1,7 +1,7 @@
-public class WhileNombreA {
-    public void inicialA(int tamaño, char simbolo) {
+public class WhileNombreApellidoAF {
+    public void inicialFA(int tamaño, char simbolo) {
         System.out.println();
-        System.out.println("Inicial A con un while");
+        System.out.println("Iniciales A y F con un while");
         int fila = 1;
         while (fila <= tamaño) {
             int col = 1;
