@@ -1,14 +1,14 @@
 public class DoWhileNombreApellidoAF {
     public void inicialFA(int tamaño, char simbolo) {
         System.out.println();
-        System.out.println("Iniciales A ; F con DO-WHILE");
+        System.out.println("Iniciales A y F con DO-WHILE");
         int fila = 1;
         do {
             int col = 1;
             do {
-                if (col <= tamaño && (fila == 1 || fila == tamaño / 2 + 1)) {
+                if (col == 1 || (fila == 1 || fila == tamaño / 2 + 1)) {
                     System.out.print(" " + simbolo + " ");
-                } else if (col > tamaño && (fila == 1 || fila == tamaño)) {
+                } else if (fila == tamaño && col <= tamaño) {
                     System.out.print(" " + simbolo + " ");
                 } else {
                     System.out.print("   ");

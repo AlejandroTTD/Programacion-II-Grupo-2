@@ -6,7 +6,9 @@ public class WhileApellidoF {
         while (fila <= tamaño) {
             int col = 1;
             while (col <= tamaño) {
-                if (col == 1 || (tamaño == 1 || fila == tamaño / 2 + 1) && col <= tamaño) {
+                if (col == 1 || (fila == 1 || fila == tamaño / 2 + 1) && col <= tamaño) {
+                    System.out.print(simbolo + " ");
+                } else if (fila == tamaño && col <= tamaño) {
                     System.out.print(simbolo + " ");
                 } else {
                     System.out.print("   ");
