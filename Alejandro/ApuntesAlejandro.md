@@ -347,3 +347,74 @@ void main(){
 - Metodo que no devuelve ningun valor o cosa, es decir, un procedimiento.
 ###### POO: Metodo con retorno
 - Metodo que retorna algun valor o cosa, es decir, es una funcion.
+
+## **Semana 2**
+### ***Clase 4: Lunes, 13 de mayo de 2024***
+#### P.O.O. : Conceptos, resolución de problemas
+Sobre los objetos se pueden hace dos cosas: Caracterizar (Propiedades) y Acciones (Métodos).
+
+- **Propiedades:** Son los atributos que tiene un objeto, es decir, lo que describe a un objeto. También se puede ver como las características que tiene un objeto, se puede ver facimente estas graficando el objeto y describiéndolo.
+###### Ejemplo:
+El objeto es una mujer, las propiedades caracteristicas pueden ser:
+```
+Género: 10, tipo de cabello: "Lacio", tipo de ojos: "verdes-alargados", estatura: 1,80, numero de brazos: 2, edad: 10, etc.
+```
+- **Métodos:** Son las acciones (Verbos en infinitivo) que puede realizar un objeto, es decir, lo que hace un objeto. Se realizan estos en base a las propiedades, es decir están directamente relacionadas a las ***propiedades***. Estas acciones pueden o no tener ***parámetros***. 
+Los parámetros son similares a las propiedades, con la diferencia que los parámetros.
+Los métodos son similares a las funciones con la diferencia que estos tienen un ámbito (public: +, private: -, protected: ~, friendly: #, etc).
+Los métodos pueden retornar un valor o no, 
+###### Ejemplo:
+```
+Caminar(), Caminar(tiempo,lugar) 
+Dormir(tiempo, posición, lugar), respirar(), comer(tiempo, lugar, tipo) 
+Hablar( ), saltar(lugar, cantidad ), tocar(tiempo,lugar) 
+Bailar(canción, tipo, ritmo). 
+```
+<br></br>
+Ya definidas las propiedades y los métodos se puede definir el ámbito del objeto.
+Para el mismo objeto mujer.
+###### Ejemplo:
+```java
+-Edad: 14
++Genero: "mujer"
++Ojos: "verdes-alargados"
++NumeroDeBrazos: 3
+public caminar(tiempo, lugar)
+protected dormir(tiempo, posición, lugar)
+private comer(tiempo, lugar, tipo)
+public saltar(lugar, cantidad)
+public tocar(tiempo, lugar)
+friendly bailar(cancion, tipo, ritmo)
+```
+
+#### UML: Unified Modeling Language (Lenguaje de modelado unificado)
+
+Dependiendo del objeto que estemos diseñando o modelando, se pueden utilizar solo propiedades, o solo acciones, o las dos.
+Modelando el objeto anteriormente visto, mujer, resulta:
+Para este caso, creamos una clase llamada ```Hombre``` que tenga un método ```sentir(Mujer)``` con un parámetro de objeto, para añadir algo al cuadro ***Evento*** del cuadro UML **MUJER**.
+|MUJER|
+|--|
+|- Edad: float <br>+ TipoDeCabello: String <br>+ TieneOjos: boolean <br> **...**|
+|~ Bailar (cancion: String, tiempo: int, ritmo: String): **String/void/boolean/...** (Retorno)<br> ~ Tocar (tiempo: int, lugar: String): boolean <br> + Saltar (lugar: String, cantidad: Int): void <br> **...**|
+|~ Sentir (hombre: Hombre) : Puede tener o no retorno|
+
+<br></br>
+Después de realizar el cuadro UML, se puede realizar el código en cualquier lenguaje P.O.O.
+Para esto, utilizaremos el cuadro de UML **MUJER**.
+###### Ejemplo:
+```java
+public class Mujer(){
+  private float Edad;
+  public boolean TieneOjos; 
+  public String TipoDeCabello;
+  ...
+  protected String Bailar (String cancion, int tiempoMin){
+    ...
+    return "Bla bla bla";
+  }
+  ...
+}
+```
+##### ==*Deber: Conceptualizar un animal salvaje: 3 Propiedades/ 3 Métodos, Cuadro UML, Código. En cuaderno/hoja.*==
+
+
