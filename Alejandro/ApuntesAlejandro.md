@@ -417,4 +417,18 @@ public class Mujer(){
 ```
 ##### ==*Deber: Conceptualizar un animal salvaje: 3 Propiedades/ 3 Métodos, Cuadro UML, Código. En cuaderno/hoja.*==
 
-
+### ***Clase 5: Martes, 14 de mayo de 2024***
+### ***Clase 6: Miércoles, 15 de mayo de 2024***
+#### Tipos de Datos
+### ***Clase 7: Lunes, 20 de mayo de 2024***
+#### Diagrama de Caso de Uso
+Los diagramas de caso de uso pueden tener, o estan conformados por los siguientes elementos:
+- Actor
+- Caso de uso
+- Flujo de control
+- Flujo de datos
+- Relación entre casos de uso
+- Relación entre actor y caso de uso
+- Relación entre actor y actor
+- Relación entre actor y flujo de datos
+- Relación entre actor y flujo de control
