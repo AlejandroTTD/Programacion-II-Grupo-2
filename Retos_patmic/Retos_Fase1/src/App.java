@@ -30,8 +30,8 @@ public class App {
                         fa.FAS1_S12_While(terminos);
                         break;
                     case 3:
-                        // fa.FAS1_S12_DoWhile(terminos);
-                        // break;
+                        fa.FAS1_S12_DoWhile(terminos);
+                        break;
                         default:
                         System.out.println("Opción de bucle no válida.");
                         break;

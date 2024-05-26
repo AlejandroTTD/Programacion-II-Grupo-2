@@ -15,10 +15,20 @@ public class FarinangoAlegria {
         int valor = 2; 
         int i = 1; 
         while (i <= terminos){
-            System.out.println(valor + " ");
+            System.out.print(valor + " ");
             valor += (i + 1) * 2; 
             i++; 
         }
         System.out.println();
+    }
+    public void FAS1_S12_DoWhile(int terminos){
+        int valor = 2; 
+        int i = 1; 
+            do {
+                System.out.print(valor + " ");
+                valor += (i + 1) * 2; 
+                i++; 
+            } while (i <= terminos); 
+            System.out.println();
     }
 }
