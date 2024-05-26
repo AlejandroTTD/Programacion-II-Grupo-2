@@ -2,44 +2,44 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        FarinangoAlegria serie = new FarinangoAlegria();
+        FarinangoAlegria fa = new FarinangoAlegria();
         Scanner scanner = new Scanner(System.in);
-        int option;
+        
+        System.out.println("Elija la serie que desea generar:");
+        System.out.println("1. S12");
+       
+        int serieOpcion = scanner.nextInt();
 
-        do {
-            System.out.println("Seleccione la serie que desea generar:");
-            System.out.println("1. Serie Numérica S12");
-            option = scanner.nextInt();
+        System.out.print("Ingrese el número de términos: ");
+        int terminos = scanner.nextInt();
 
-            if (option < 1 || option > 10) {
-                if (option == 11) {
-                    System.out.println("Saliendo...");
-                    break;
+        System.out.println("Elija el tipo de bucle:");
+        System.out.println("1. For");
+        System.out.println("2. While");
+        System.out.println("3. DoWhile");
+
+        int bucleOpcion = scanner.nextInt();
+
+        switch (serieOpcion) {
+            case 1:
+                switch (bucleOpcion) {
+                    case 1:
+                        fa.FAS1_S12_For(terminos);
+                        break;
+                    // case 2:
+                    //     fa.FAS1_S12_While(terminos);
+                    //     break;
+                    // case 3:
+                    //     fa.FAS1_S12_DoWhile(terminos);
+                    //     break;
+                        default:
+                        System.out.println("Opción de bucle no válida.");
+                        break;
                 }
-                System.out.println("Opción no válida. Intente de nuevo.");
-                continue;
-            }
-
-            System.out.print("Ingrese el número de términos/caracteres: ");
-            int numElementos = scanner.nextInt();
-
-            switch (option) {
-                case 1:
-                    generarSerieS12(serie, numElementos);
-                    break;
-
-            }
-
-            System.out.println();
-
-        } while (option != 11);
-
+                
         scanner.close();
+        }
     }
-
-    private static void generarSerieS12(FarinangoAlegria serie, int numElementos) {
-        serie.FAS1S12(numElementos);
-    }
-
 }
+
 
