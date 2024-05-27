@@ -1,7 +1,5 @@
 public class FarinangoAlegria {
     
-    private String FANombre;
-
     // metodos S12
     public void FA_S12(int terminos) {
         int valor = 2;
