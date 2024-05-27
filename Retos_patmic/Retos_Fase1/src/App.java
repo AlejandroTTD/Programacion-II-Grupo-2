@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class App {
     static Scanner g2Sc = new Scanner(System.in);
     public static void main(String[] args) {
+        GallardoCeleste cg = new GallardoCeleste();
         FarinangoAlegria fa = new FarinangoAlegria();
         CuasquerDavid da = new CuasquerDavid();
 
@@ -11,7 +12,7 @@ public class App {
         System.out.println("╠════════════════════════════╣");
         System.out.println("║  *    cuasquer.david    *  ║");
         System.out.println("║  *    farinango.alegria *  ║");
-        System.out.println("║  *                      *  ║");
+        System.out.println("║  *    gallardo.celeste  *  ║");
         System.out.println("║  *                      *  ║");
         System.out.println("╚════════════════════════════╝");
         System.out.println("1. S1");
@@ -141,6 +142,9 @@ public class App {
                 System.out.println("Opción de serie no válida.");
                 break;
         }
+    //formas
+    cg.cgFormas();
+    
     }
 }
 
