@@ -1,12 +1,19 @@
 import java.util.Scanner;
-
 public class App {
     static Scanner g2Sc = new Scanner(System.in);
     public static void main(String[] args) {
         FarinangoAlegria fa = new FarinangoAlegria();
         CuasquerDavid da = new CuasquerDavid();
 
-        // Interfaz
+        System.out.println();
+        System.out.println("╔════════════════════════════╗");
+        System.out.println("║        * Grupo 2 *         ║");
+        System.out.println("╠════════════════════════════╣");
+        System.out.println("║  *    cuasquer.david    *  ║");
+        System.out.println("║  *                      *  ║");
+        System.out.println("║  *                      *  ║");
+        System.out.println("║  *                      *  ║");
+        System.out.println("╚════════════════════════════╝");
         System.out.println("1. S1");
         System.out.println("2. S2");
         System.out.println("3. S3");
