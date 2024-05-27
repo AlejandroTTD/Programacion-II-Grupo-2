@@ -12,7 +12,10 @@ public class App {
         System.out.println("4. SC3");
         System.out.println("5. SC4");
         System.out.println("6. SC5");
-
+        System.out.println("7. SC6");
+        System.out.println("8. SC7");
+        System.out.println("9. SC8");
+        System.out.println("10. SC9");
 
         int serieOpcion = scanner.nextInt();
 
@@ -35,10 +38,29 @@ public class App {
             case 5:
                 fa.FA_SC4(terminos);
                 break;
+            case 6:
+                fa.FA_SC5(terminos);
+                break;
+            case 7:
+                fa.FA_SC6(terminos);
+                break;
+            case 8:
+                fa.FA_SC7(terminos);
+                break;
+            case 9:
+                fa.FA_SC8(terminos);
+                break;
+            case 10:
+                fa.FA_SC9(terminos);
+                break;
+            default:
+                System.out.println("Opción de serie no válida.");
+                break;
         }
 
         scanner.close();
     }
 }
+
 
 

@@ -62,20 +62,69 @@ public class FarinangoAlegria {
         System.out.println();
     }
 
+    public void FA_SC6(int terminos) {
+        char caracter = 'a';
+        for (int i = 0; i < terminos; i++) {
+            System.out.print(caracter + " ");
+            caracter++;
+        }
+        System.out.println();
+    }
 
+    public void FA_SC7(int terminos) {
+        char caracter = 'a';
+        for (int i = 0; i < terminos; i++) {
+            System.out.print(caracter + " ");
+            if (i % 2 == 1) {
+                caracter += 2;
+            } else {
+                caracter++;
+            }
+        }
+        System.out.println();
+    }
 
+    public void FA_SC8(int terminos) {
+        char caracter = 'a';
+        int repeticiones = 2;
+        for (int i = 0; i < terminos; i++) {
+            for (int j = 0; j < repeticiones; j++) {
+                System.out.print(caracter);
+            }
+            System.out.print(" ");
+            caracter++;
+            repeticiones += 2;
+        }
+        System.out.println();
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    public void FA_SC9(int terminos) {
+        char caracter = 'a';
+        int repeticiones = 1;
+        for (int i = 0; i < terminos; i++) {
+            for (int j = 0; j < repeticiones; j++) {
+                System.out.print(caracter);
+            }
+            System.out.print(" ");
+            caracter++;
+            repeticiones += 2;
+        }
+        System.out.println();
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
