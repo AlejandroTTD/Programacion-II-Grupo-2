@@ -33,12 +33,16 @@ public void cgFormas(){
                 System.out.println(" ");
                 String cga = "* ";
                 String cgd = "  ";
-
-                System.out.print("Ingrese el número de ancho: ");
-                int cgancho = scan.nextInt();
-
-                System.out.print("Ingrese el número de cgfil: ");
-                int cgalto = scan.nextInt();
+                int cgancho;
+                do {
+                    System.out.print("Ingrese el número de ancho (mayor que 0): ");
+                    cgancho = scan.nextInt();
+                } while (cgancho <= 0);
+                int cgalto;
+                do {
+                    System.out.print("Ingrese el número de altura (mayor que 0): ");
+                    cgalto = scan.nextInt();
+                } while (cgalto <= 0);
 
                 for (int i = 0; i < cgancho; i++) { 
                     for (int j = 0; j < cgalto; j++) { 
@@ -61,11 +65,17 @@ public void cgFormas(){
                 String cgb = "+ ";
                 String cge = "  ";
 
-                System.out.print("Ingrese el número de ancho: ");
-                int cganch = scanner.nextInt();
+                int cganch;
+                do {
+                    System.out.print("Ingrese el número de ancho (mayor que 0): ");
+                    cganch = scanner.nextInt();
+                } while (cganch <= 0);
 
-                System.out.print("Ingrese el número de altura: ");
-                int cgalt = scanner.nextInt();
+                int cgalt;
+                do {
+                    System.out.print("Ingrese el número de altura (mayor que 0): ");
+                    cgalt = scanner.nextInt();
+                } while (cgalt <= 0);
 
                 for (int i = 0; i < cganch; i++) { 
                     for (int j = 0; j < cgalt; j++) { 
@@ -91,8 +101,11 @@ public void cgFormas(){
                 System.out.println(" ");
                 String cgf = "* ";
 
-                System.out.print("Ingrese el número de altura: ");
-                int cgaltura = scanner.nextInt();
+                int cgaltura;
+                do {
+                    System.out.print("Ingrese el número de altura (mayor que 0): ");
+                    cgaltura = scanner.nextInt();
+                } while (cgaltura <= 0);
                 
                 for (int i = 1; i <= cgaltura; i++) { 
                     for (int j = 0; j < i; j++) { 
@@ -112,8 +125,11 @@ public void cgFormas(){
                 String cgg = "* ";
                 String cgh = "  ";
 
-                System.out.print("Ingrese el número de altura: ");
-                int cgaltur = scanner.nextInt();
+                int cgaltur;
+                do {
+                    System.out.print("Ingrese el número de altura (mayor que 0): ");
+                    cgaltur = scanner.nextInt();
+                } while (cgaltur <= 0);
 
                 for (int i = 1; i <= cgaltur; i++) { 
                     for (int j = 0; j < cgaltur - i; j++) { 
@@ -135,8 +151,11 @@ public void cgFormas(){
                 String cgi = "* ";
                 String cgj = " ";
 
-                System.out.print("Ingrese el número de altura: ");
-                int cgaltu = scanner.nextInt();
+                int cgaltu;
+                do {
+                    System.out.print("Ingrese el número de altura (mayor que 0): ");
+                    cgaltu = scanner.nextInt();
+                } while (cgaltu <= 0);
 
                 for (int i = cgaltu; i > 0; i--) { 
                     for (int j = 0; j < cgaltu - i; j++) { 
@@ -159,8 +178,11 @@ public void cgFormas(){
                 String cgk = "* ";
                 String cgl = " ";
 
-                System.out.print("Ingrese el número de altura: ");
-                int cgal = scanner.nextInt();
+                int cgal;
+                do {
+                    System.out.print("Ingrese el número de altura (mayor que 0): ");
+                    cgal = scanner.nextInt();
+                } while (cgal <= 0);
                 
                 for (int i = 1; i <= cgal; i++) { 
                     for (int j = 0; j < cgal - i; j++) { 
@@ -180,8 +202,11 @@ public void cgFormas(){
                 System.out.println(" ");
                 String cgescalon= "|_ _ _";
 
-                System.out.print("Ingrese el número de altura: ");
-                int cgnivel = scanner.nextInt();
+                int cgnivel;
+                do {
+                    System.out.print("Ingrese el número de altura (mayor que 0): ");
+                    cgnivel = scanner.nextInt();
+                } while (cgnivel <= 0);
                 
                 for (int i = 1; i < cgnivel; i++){
                     for (int e = 1; e < i; e++)
@@ -198,8 +223,11 @@ public void cgFormas(){
 
                 String cgescalo= "_ _ _|";
 
-                System.out.print("Ingrese el número de altura: ");
-                int cgnive = scanner.nextInt();
+                int cgnive;
+                do {
+                    System.out.print("Ingrese el número de altura (mayor que 0): ");
+                    cgnive = scanner.nextInt();
+                } while (cgnive <= 0);
                 
                 for (int i = 1; i <= cgnive; i++){
                     for (int e = 0; e < cgnive - i; e++){
@@ -223,8 +251,11 @@ public void cgFormas(){
                 String cgizquierda = "_ _ _|  ";
                 String cgmedio = " ";
                 String cgderecha =" |_ _ _";
-                System.out.print("Ingrese la altura de la pirámide: ");
-                int cgtamano = scanner.nextInt();
+                int cgtamano;
+                do {
+                    System.out.print("Ingrese el número de altura (mayor que 0): ");
+                    cgtamano = scanner.nextInt();
+                } while (cgtamano <= 0);
 
                 for (int i = 0; i < cgtamano; i++) {
             
@@ -250,8 +281,11 @@ public void cgFormas(){
                 String cgprimerescalon= "|_ + _";
                 String cgsegescalon= "|_ - _";
 
-                System.out.print("Ingrese el número de altura: ");
-                int cgpiso = scanner.nextInt();
+                int cgpiso;
+                do {
+                    System.out.print("Ingrese el número de altura (mayor que 0): ");
+                    cgpiso = scanner.nextInt();
+                } while (cgpiso <= 0);
                 
                 for (int i = 1; i < cgpiso; i++){
                     if (i%2==0){
@@ -275,8 +309,11 @@ public void cgFormas(){
                 String cgbase= "|";
                 String cggrada= "_ ";
 
-                System.out.print("Ingrese el número de altura: ");
-                int cgbasegrada = scanner.nextInt();
+                int cgbasegrada;
+                do {
+                    System.out.print("Ingrese el número de altura (mayor que 0): ");
+                    cgbasegrada = scanner.nextInt();
+                } while (cgbasegrada <= 0);
                 
                 for (int i = 1; i < cgbasegrada; i++){
                     System.out.println(cgbase);
@@ -300,8 +337,11 @@ public void cgFormas(){
                 System.out.println("F12");
                 System.out.println(" ");
 
-                System.out.print("Ingrese el número de altura: ");
-                int cgnume = scanner.nextInt();
+                int cgnume;
+                do {
+                    System.out.print("Ingrese el número de altura (mayor que 0): ");
+                    cgnume = scanner.nextInt();
+                } while (cgnume <= 0);
                 
                 for (int i = cgnume; i >= 1; i--) {
                     for (int j = 1; j <= i; j++) {
@@ -315,8 +355,11 @@ public void cgFormas(){
                 System.out.println("F13");
                 System.out.println(" ");
 
-                System.out.print("Ingrese el número de altura: ");
-                int cgnum = scanner.nextInt();
+                int cgnum;
+                do {
+                    System.out.print("Ingrese el número de altura (mayor que 0): ");
+                    cgnum = scanner.nextInt();
+                } while (cgnum <= 0);
                 
                 for (int i = 1; i <= cgnum; i++) {
                     for (int j = 1; j <= i; j++) {
@@ -330,8 +373,11 @@ public void cgFormas(){
                 System.out.println(" ");
                 System.out.println("F14");
                 System.out.println(" ");
-                System.out.print("Ingrese el número de altura: ");
-                int cgfila = scanner.nextInt();
+                int cgfila;
+                do {
+                    System.out.print("Ingrese el número de altura (mayor que 0): ");
+                    cgfila = scanner.nextInt();
+                } while (cgfila <= 0);
                 
                 int[][] cgpascal = new int[cgfila][cgfila];
 
@@ -362,8 +408,11 @@ public void cgFormas(){
                 System.out.println("F15");
                 System.out.println(" ");
 
-                System.out.print("Ingrese el número de altura: ");
-                int cgfila2 = scanner.nextInt();
+                int cgfila2;
+                do {
+                    System.out.print("Ingrese el número de altura (mayor que 0): ");
+                    cgfila2 = scanner.nextInt();
+                } while (cgfila2 <= 0);
                 int[][] cgpascal2 = new int[cgfila2][cgfila2];
 
                 for (int i = 0; i < cgfila2; i++) {
@@ -390,8 +439,11 @@ public void cgFormas(){
                 System.out.println(" ");
                 String cgmas = "+";
                 String cgmenos = "-";
-                System.out.print("Ingrese el número de altura: ");
-                int cgfil = scanner.nextInt();
+                int cgfil;
+                do {
+                    System.out.print("Ingrese el número de altura (mayor que 0): ");
+                    cgfil = scanner.nextInt();
+                } while (cgfil <= 0);
 
                 for (int i = 0; i < cgfil; i++) {
                     
@@ -425,8 +477,11 @@ public void cgFormas(){
                 System.out.println(" ");
                 String cgcero = "0";
                 String cguno = "1";
-                System.out.print("Ingrese el número de altura: ");
-                int cgcol = scanner.nextInt();
+                int cgcol;
+                do {
+                    System.out.print("Ingrese el número de altura (mayor que 0): ");
+                    cgcol = scanner.nextInt();
+                } while (cgcol <= 0);
 
                 for (int i = 0; i < cgcol; i++) {
                     
@@ -457,8 +512,11 @@ public void cgFormas(){
                 System.out.println("F18");
                 System.out.println(" ");            
 
-                System.out.print("Ingrese el número de altura: ");
-                int cgcnumeros = scanner.nextInt();
+                int cgcnumeros;
+                do {
+                    System.out.print("Ingrese el número de altura (mayor que 0): ");
+                    cgcnumeros = scanner.nextInt();
+                } while (cgcnumeros <= 0);
 
                 int[][] cgtriangulo = new int[cgcnumeros][cgcnumeros];
 
@@ -484,8 +542,11 @@ public void cgFormas(){
                 System.out.println("F19");
                 System.out.println(" ");            
 
-                System.out.print("Ingrese el número de altura: ");
-                int cgcn = scanner.nextInt();
+                int cgcn;
+                do {
+                    System.out.print("Ingrese el número de altura (mayor que 0): ");
+                    cgcn = scanner.nextInt();
+                } while (cgcn <= 0);
 
 
                 int[][] cgtriangul = new int[cgcn][cgcn];

@@ -25,40 +25,53 @@ public class App {
         System.out.println("8. S8");
         System.out.println("9. S9");
         System.out.println("10. S10");
-        System.out.println("12. SC1");
-        System.out.println("13. SC2");
-        System.out.println("14. SC3");
-        System.out.println("15. SC4");
-        System.out.println("16. SC5");
-
+        System.out.println("11. SC1");
+        System.out.println("12. SC2");
+        System.out.println("13. SC3");
+        System.out.println("14. SC4");
+        System.out.println("15. SC5");
+        System.out.println("16. S12");
+        System.out.println("17. SC1");
+        System.out.println("18. SC2");
+        System.out.println("19. SC3");
+        System.out.println("20. SC4");
+        System.out.println("21. SC5");
+        System.out.println("22. SC6");
+        System.out.println("23. SC7");
+        System.out.println("24. SC8");
+        System.out.println("25. SC9");
+        System.out.println("26. Formas/Figuras");
         int g2SerieOpcionI = 0;
         int g2TerminosI = 0;
-        
-        System.out.println("Elija la serie que desea generar:");
-        System.out.println("17. S12");
-        System.out.println("18. SC1");
-        System.out.println("19. SC2");
-        System.out.println("20. SC3");
-        System.out.println("21. SC4");
-        System.out.println("22. SC5");
-        System.out.println("23. SC6");
-        System.out.println("24. SC7");
-        System.out.println("25. SC8");
-        System.out.println("26. SC9");
-
-       
         while (true) {
-            System.out.print("Ingrese el numero de terminos: ");
-            String g2Terminos = g2Sc.nextLine();
+            System.out.println("Elija tu opcion:");
+            String g2SerieOpcion = g2Sc.nextLine();
             try {
-                g2TerminosI = Integer.parseInt(g2Terminos);
-                if (g2TerminosI > 0) {
+                g2SerieOpcionI = Integer.parseInt(g2SerieOpcion);
+                if (g2SerieOpcionI >= 1 && g2SerieOpcionI <= 27) {
                     break; 
                 } else {
-                    System.out.println("El número de términos debe ser mayor que 0. Intente de nuevo.");
+                    System.out.println("Opción no válida. Intente de nuevo.");
                 }
             } catch (NumberFormatException e) {
                 System.out.println("Invalido. Intente de nuevo.");
+            }
+        }
+
+        if(g2SerieOpcionI !=26){
+            while (true) {
+                System.out.print("Ingrese el numero de terminos: ");
+                String g2Terminos = g2Sc.nextLine();
+                try {
+                    g2TerminosI = Integer.parseInt(g2Terminos);
+                    if (g2TerminosI > 0) {
+                        break; 
+                    } else {
+                        System.out.println("El número de términos debe ser mayor que 0. Intente de nuevo.");
+                    }
+                } catch (NumberFormatException e) {
+                    System.out.println("Invalido. Intente de nuevo.");
+                }
             }
         }
 
@@ -138,13 +151,14 @@ public class App {
             case 26:
                 fa.FA_SC9(g2TerminosI);
                 break;
+            case 27:
+                cg.cgFormas();
+                break;
             default:
                 System.out.println("Opción de serie no válida.");
                 break;
         }
-    //formas
     cg.cgFormas();
-    
     }
 }
 
