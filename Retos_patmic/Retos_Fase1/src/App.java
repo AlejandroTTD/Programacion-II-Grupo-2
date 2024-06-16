@@ -154,6 +154,27 @@ public class App {
             case 27:
                 cg.cgFormas();
                 break;
+            case 28:
+                cg.cgA02();
+                break;
+            case 29:
+                cg.cgA03();
+                break;
+            case 30:
+                cg.cgA04();
+                break;
+            case 31:
+                cg.cgA05();
+                break;
+            case 32:
+                cg.cgL10();
+                break;
+            case 33:
+                cg.cgL11();
+                break;
+            case 34:
+                cg.cgL12();
+                break;
             default:
                 System.out.println("Opción de serie no válida.");
                 break;
