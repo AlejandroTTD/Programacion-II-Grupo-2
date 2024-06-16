@@ -20,7 +20,7 @@ public class App {
         System.out.println("║  *    cuasquer.david    *  ║");
         System.out.println("║  *    farinango.alegria *  ║");
         System.out.println("║  *    gallardo.celeste  *  ║");
-        System.out.println("║  *                      *  ║");
+        System.out.println("║  *    cesar espinoza    *  ║");
         System.out.println("╚════════════════════════════╝");
         System.out.println("1. S1");
         System.out.println("2. S2");
