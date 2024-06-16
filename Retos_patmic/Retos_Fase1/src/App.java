@@ -107,49 +107,49 @@ public class App {
                 da.dcSN10(g2TerminosI);
                 break;
             case 12:
-                fa.FA_S12(g2TerminosI);
+                fa.faS12(g2TerminosI);
                 break;
             case 13:
-                fa.FA_SC1(g2TerminosI);
+                fa.faSC1(g2TerminosI);
                 break;
             case 14:
-                fa.FA_SC2(g2TerminosI);
+                fa.faSC2(g2TerminosI);
                 break;
             case 15:
-                fa.FA_SC3(g2TerminosI);
+                fa.faSC3(g2TerminosI);
                 break;
             case 16:
-                fa.FA_SC4(g2TerminosI);
+                fa.faSC4(g2TerminosI);
                 break;
             case 17:
-                fa.FA_S12(g2TerminosI);
+                fa.faS12(g2TerminosI);
                 break;
             case 18:
-                fa.FA_SC1(g2TerminosI);
+                fa.faSC1(g2TerminosI);
                 break;
             case 19:
-                fa.FA_SC2(g2TerminosI);
+                fa.faSC2(g2TerminosI);
                 break;
             case 20:
-                fa.FA_SC3(g2TerminosI);
+                fa.faSC3(g2TerminosI);
                 break;
             case 21:
-                fa.FA_SC4(g2TerminosI);
+                fa.faSC4(g2TerminosI);
                 break;
             case 22:
-                fa.FA_SC5(g2TerminosI);
+                fa.faSC5(g2TerminosI);
                 break;
             case 23:
-                fa.FA_SC6(g2TerminosI);
+                fa.faSC6(g2TerminosI);
                 break;
             case 24:
-                fa.FA_SC7(g2TerminosI);
+                fa.faSC7(g2TerminosI);
                 break;
             case 25:
-                fa.FA_SC8(g2TerminosI);
+                fa.faSC8(g2TerminosI);
                 break;
             case 26:
-                fa.FA_SC9(g2TerminosI);
+                fa.faSC9(g2TerminosI);
                 break;
             case 27:
                 cg.cgFormas();
@@ -175,8 +175,9 @@ public class App {
             case 34:
                 cg.cgL12();
                 break;
+
             default:
-                System.out.println("Opción de serie no válida.");
+                System.out.println("Opción de serie no valida.");
                 break;
         }
     cg.cgFormas();
