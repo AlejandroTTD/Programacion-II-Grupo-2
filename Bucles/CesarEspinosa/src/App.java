@@ -2,7 +2,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         
         // declarar
-        BucleFor  bf;
+        BucleFor                   bf;
         ForNombreC                 fc;
         ForApellidoE               fe;
         ForNombreApellidoCE        fce;
