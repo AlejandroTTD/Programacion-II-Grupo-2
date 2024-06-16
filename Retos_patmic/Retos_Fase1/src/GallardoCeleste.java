@@ -1,3 +1,4 @@
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -721,6 +722,41 @@ public class GallardoCeleste {
             System.out.println();
         }
     }
+    
+    public void cgL09() {
+        String nombreCompleto = "Celeste Gallardo";
+        int totalLength = nombreCompleto.length();
+
+        for (int i = 0; i <= totalLength; i++) {
+            // Calcular porcentaje actual
+            int porcentaje = (int) ((i / (double) totalLength) * 100);
+
+            // Crear la representación progresiva del nombre
+            StringBuilder nombreProgresivo = new StringBuilder();
+            for (int j = 0; j < totalLength; j++) {
+                if (j < i) {
+                    nombreProgresivo.append(" ");
+                } else if (j == i) {
+                    nombreProgresivo.append(nombreCompleto.charAt(j));
+                }
+            }
+
+            // Limpiar la consola
+            System.out.print("\033[H\033[2J");
+            System.out.flush();
+
+            // Imprimir resultado
+            System.out.printf("%s%4d%%%n", nombreProgresivo.toString(), porcentaje);
+
+            // Pausar para la animación
+            try {
+                Thread.sleep(500); // Pausar por 500 milisegundos (0.5 segundos)
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+            }
+        }
+    }
+
     public void cgL10(){
         Random random = new Random();
         int fileSize = random.nextInt(91) + 10;

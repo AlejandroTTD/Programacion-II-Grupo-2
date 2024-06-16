@@ -1,16 +1,9 @@
+
 /* Copyright (C) 2k24, AlejandroTTD
  * davidcuasquer21@gmail.com
  * Version 1.0
  */
 public class CuasquerDavid {
-    public int dcNum;
-
-    public int getdcNum() {
-        return dcNum;
-    }
-    public void setdcNum(int dcNum) {
-        this.dcNum = dcNum;
-    }
     // SN1:  0 1 1 2 3 5 8 13 ...
     public void dcSN1(int dcNum){
         System.out.println();
@@ -133,10 +126,112 @@ public class CuasquerDavid {
     // Sn10: 3, 9, 27, 81, 243, 729, 2187, ...
     public void dcSN10(int dcNum){
         System.out.println();
-
         System.out.println("Sucesion Numerica 10:");
-        for(int dcI =1; dcI <= dcNum; dcI++){
+        for(int dcI = 1; dcI <= dcNum; dcI++){
             System.out.print((int)Math.pow(3, dcI)+", ");
         }
+    }
+    // C09)   Ingresa una frase y convertir una leta a mayusculas y otra a minisculas
+    //         Ejemplo, frase : di mi nombre
+    //                 salida : Di Mi NoMbRe
+    public String dcC09(String dcFrase) {
+        char[] dcCaracteres = dcFrase.toCharArray();
+        boolean dcConvertirMayuscula = true; 
+        for (int i = 0; i < dcCaracteres.length; i++) {
+            if (Character.isLetter(dcCaracteres[i])) {
+                if (dcConvertirMayuscula) {
+                    dcCaracteres[i] = Character.toUpperCase(dcCaracteres[i]);
+                } else {
+                    dcCaracteres[i] = Character.toLowerCase(dcCaracteres[i]);
+                }
+                dcConvertirMayuscula = !dcConvertirMayuscula; 
+            }
+        }
+        return new String(dcCaracteres);
+    }
+
+    // A01)    Crear una array para cada palabra de su nombre e ingrese el porcentaje de carga para cada palabra.
+    // Ejemplo:    Pancracia Carmeliana Altamirano Perez 
+    
+    // Ingrese el porcentaje de carga: 100 75 50 25
+    // Pancracia Carmeliana Altamirano Perez 
+
+    // [==============>] 100% Pancracia
+    // [==========>    ]  75% Carmeli
+    // [=======>       ]  50% Altam
+    // [===>           ]  25% Pe
+    
+    public void dcA01(String[] dcNombres, int[] dcPorcentajes) {
+        // Iterar sobre los nombres y porcentajes
+        for (int i = 0; i < dcNombres.length; i++) {
+            String dcNombre = dcNombres[i];
+            int dcPorcentaje = dcPorcentajes[i];
+
+            // Calcular el número de caracteres a mostrar
+            int lengthToShow = (int) Math.ceil(dcNombre.length() * dcPorcentaje / 100.0);
+
+            // Subcadena con los caracteres a mostrar
+            String dcSubcadena = dcNombre.substring(0, lengthToShow);
+
+            // Crear la barra de progreso
+            StringBuilder dcBarra = new StringBuilder("[");
+            int numHashes = dcPorcentaje / 10;
+            for (int j = 0; j < 10; j++) {
+                if (j < numHashes) {
+                    dcBarra.append("=");
+                } else {
+                    dcBarra.append(" ");
+                }
+            }
+            dcBarra.append("] ");
+
+            // Imprimir resultado
+            System.out.printf("%s%3d%% %s\n", dcBarra, dcPorcentaje, dcSubcadena);
+            }
+        }
+    
+    // R01) crear un metodo recursivo para obtener factorial(n)
+    public int dcR01(int dcN){
+        if (dcN <= 1) {
+            return 1;
+        }
+        return dcN * dcR01(dcN - 1);  
+    }
+    // R02) crear un metodo recursivo para obtener la suma(a,b)  
+    public int dcR02(int dcA, int dcB){
+        if (dcB==0){
+            return dcA;
+        }
+        return dcR02(dcA+1, dcB-1);
+    }
+    // R03) crear un metodo recursivo para obtener la multiplicacion(a,b)
+    public int dcR03(int dcA, int dcB){
+        if (dcB==0){
+            return 0;
+        }
+        return dcA + dcR03(dcA, dcB-1);
+    }
+    // R04) crear un metodo recursivo para obtener la potencia(a,b) 
+    public int dcR04(int dcA, int dcB){
+        if (dcB==0){
+            return 1;
+        }
+        return dcA * dcR04(dcA, dcB-1);
+    }
+    // R05) crear un metodo recursivo para obtener la conteoProgregresivoHasta(n) / imprimir el avance
+    public void dcR05(int dcN){
+        if (dcN < 0){
+            return;
+        }
+        dcR05(dcN-1);
+        System.out.println(dcN);
+    }
+    // R06) crear un metodo recursivo para obtener la conteoRegresivo(n)  hasta 0 / imprimir el avance
+    public void dcR06(int dcN){
+        if (dcN < 0){
+            return;
+        }
+        System.out.println(dcN);
+        dcR06(dcN-1);
     }
 }
